@@ -117,6 +117,7 @@ public class AppCommand
                         Author = build.AuthorName,
                         OwnerName = RepositoryOwner,
                         RepositoryName = RepositoryName,
+                        LoaderType = build.LoaderType,
                     };
                 }
 
