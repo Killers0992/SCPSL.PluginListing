@@ -1,5 +1,5 @@
-name: "Build listing"
-description: "Generates listing for all plugin builds."
+name: "SCPSL.PluginListing"
+description: "Generates listing for all releases."
 branding:
   icon: file
   color: blue

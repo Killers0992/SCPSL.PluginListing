@@ -10,4 +10,4 @@ WORKDIR /app
 
 COPY --from=build-env /app/out .
 
-ENTRYPOINT ["dotnet", "/app/SCPSL.BuildPluginListing.dll"]
+ENTRYPOINT ["dotnet", "/app/SCPSL.PluginListing.dll"]
