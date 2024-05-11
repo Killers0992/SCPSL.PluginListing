@@ -138,6 +138,9 @@ public class AppCommand
                 return 1;
             }
 
+            if (!Directory.Exists("./Website"))
+                Directory.CreateDirectory("./Website");
+
             File.WriteAllText("./Website/releases.json", JsonConvert.SerializeObject(releasesModel, Formatting.Indented));
             Console.WriteLine("Releases file uploaded!");
             return 0;
